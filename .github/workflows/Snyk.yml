@@ -8,5 +8,5 @@ jobs:
         - name: Run Snyk to check for vulnerabilities
           uses: snyk/actions/node@master
           env:
-            SNYK_TOKEN: snyk
+            SNYK_TOKEN: SNYK
         - uses: actions/setup-node@v4
